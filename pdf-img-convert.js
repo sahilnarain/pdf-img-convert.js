@@ -25,7 +25,7 @@ SOFTWARE.
 const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 const isURL = require('is-url');
 const pdfjs = require('pdfjs-dist/legacy/build/pdf.js');
-const Canvas = require("canvas");
+const Canvas = require("canvas-aws-prebuilt");
 const assert = require("assert").strict;
 const fs = require("fs");
 const util = require('util');
